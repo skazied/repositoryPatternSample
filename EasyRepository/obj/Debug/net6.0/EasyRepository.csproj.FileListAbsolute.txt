@@ -1,0 +1,12 @@
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\bin\Debug\net6.0\EasyRepository.deps.json
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\bin\Debug\net6.0\EasyRepository.dll
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\bin\Debug\net6.0\EasyRepository.pdb
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\EasyRepository.csproj.AssemblyReference.cache
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\EasyRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\EasyRepository.AssemblyInfoInputs.cache
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\EasyRepository.AssemblyInfo.cs
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\EasyRepository.csproj.CoreCompileInputs.cache
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\EasyRepository.dll
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\refint\EasyRepository.dll
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\EasyRepository.pdb
+C:\Users\krm\source\repos\EasyRepository\EasyRepository\obj\Debug\net6.0\ref\EasyRepository.dll
