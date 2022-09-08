@@ -4,9 +4,9 @@ using SampleApp.Entities;
 
 namespace SampleApp.ComplexImplementationSample
 {
-    public class BaseRepository<TEntity> : StandartRepository<TEntity>, IBaseRepository<TEntity> where TEntity : class
+    public class BaseRepository<TEntity> : StandartRepository<TEntity, RepositoryContext>, IBaseRepository<TEntity> where TEntity : class
     {
-        public BaseRepository(DbContext repositoryContext) : base(repositoryContext)
+        public BaseRepository(RepositoryContext repositoryContext) : base(repositoryContext)
         {
         }
     }

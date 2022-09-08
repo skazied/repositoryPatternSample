@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SampleApp;
 using SampleApp.ComplexImplementationSample;
 using SampleApp.Entities;
 
@@ -11,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DbContext>(options => options.UseInMemoryDatabase("sampleDb"));
+builder.Services.AddDbContext<RepositoryContext>();
 
 //****************************
 //IMPLEMENTATIONS RIGHT HERE

@@ -4,11 +4,13 @@ using System.Linq.Expressions;
 
 namespace EasyRepository
 {
-    public abstract class StandartRepository<TEntity> : IStandartRepository<TEntity> where TEntity : class
+    public abstract class StandartRepository<TEntity, TDbContext> : IStandartRepository<TEntity, TDbContext> 
+        where TEntity : class
+        where TDbContext : DbContext
     {
-        protected DbContext _context { get; set; }
+        protected TDbContext _context { get; set; }
 
-        public StandartRepository(DbContext repositoryContext)
+        public StandartRepository(TDbContext repositoryContext)
         {
             _context = repositoryContext;
         }

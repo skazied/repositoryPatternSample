@@ -1,9 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Linq.Expressions;
 
 namespace EasyRepository
 {
-    public interface IStandartRepository<TEntity> where TEntity : class
+    public interface IStandartRepository<TEntity, TDbContext> 
+        where TEntity : class
+        where TDbContext : DbContext
     {
         TEntity Create(TEntity entity);
         TEntity Update(TEntity entity);

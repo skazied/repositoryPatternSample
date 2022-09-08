@@ -4,9 +4,9 @@ using SampleApp.Entities;
 
 namespace SampleApp.ComplexImplementationSample
 {
-    public class TodoRepository : StandartRepository<ComplexImplementationTodoEntity>, ITodoRepository
+    public class TodoRepository : StandartRepository<ComplexImplementationTodoEntity, RepositoryContext>, ITodoRepository
     {
-        public TodoRepository(DbContext repositoryContext) : base(repositoryContext)
+        public TodoRepository(RepositoryContext repositoryContext) : base(repositoryContext)
         {
         }
 

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyRepository", "EasyRepository\EasyRepository.csproj", "{E8EDBF1A-FC32-4193-B592-F957384C5B01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyRepository", "EasyRepository\EasyRepository.csproj", "{E8EDBF1A-FC32-4193-B592-F957384C5B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\SampleApp.csproj", "{519B2DAD-1CE2-47FD-A99D-1765D5D72F9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E8EDBF1A-FC32-4193-B592-F957384C5B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8EDBF1A-FC32-4193-B592-F957384C5B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8EDBF1A-FC32-4193-B592-F957384C5B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519B2DAD-1CE2-47FD-A99D-1765D5D72F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519B2DAD-1CE2-47FD-A99D-1765D5D72F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519B2DAD-1CE2-47FD-A99D-1765D5D72F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519B2DAD-1CE2-47FD-A99D-1765D5D72F9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
